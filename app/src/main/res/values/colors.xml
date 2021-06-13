@@ -7,4 +7,15 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="whiteTextColor">#fff</color>
+    <color name="primaryTextColor">#2661FA</color>
+    <color name="loginBkColor">#f0f0f0</color>
+    <color name="blue">#0963BF</color>
+    <color name="gray"> #EEEEEE</color>
+    <color name="darkgray"> #757575</color>
+    <color name="so"> #293A4E</color>
+    <color name="so1"> #009493</color>
+    <color name="purple"> #440841</color>
+    <!--colros for card-->
+    <color name="whiteCardColor">#fff</color>
 </resources>
