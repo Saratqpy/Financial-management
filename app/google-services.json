@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "603361723862",
+    "project_id": "financial-management-cb2fc",
+    "storage_bucket": "financial-management-cb2fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603361723862:android:0fc80fcc4ea92902745077",
+        "android_client_info": {
+          "package_name": "com.example.financial_management"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603361723862-6jofknah3j3lvqecld1h1od7k2g64qgk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiV3dnDUiMw_nYUyJGmJEbUQz5PWwQDD0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "603361723862-6jofknah3j3lvqecld1h1od7k2g64qgk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
