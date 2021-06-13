@@ -24,24 +24,26 @@ public class SignupActivity extends AppCompatActivity {
         setContentView(R.layout.activity_signup);
         database = FirebaseFirestore.getInstance();
         auth = FirebaseAuth.getInstance();
-        emailBox = findViewById(R.id.emailBox);
         nameBox = findViewById(R.id.nameBox);
-        emailBox = findViewById(R.id.familyBox);
+        familyBox = findViewById(R.id.familyBox);
+        emailBox = findViewById(R.id.emailBox);
         passwordBox = findViewById(R.id.passwordBox);
         signupBtn = findViewById(R.id.createBtn);
         signupBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String email,pass,name,family;
-                email = emailBox.getText().toString();
-                pass = passwordBox.getText().toString();
+                String name,family,email,pass;
                 name = nameBox.getText().toString();
                 family=familyBox.getText().toString();
+                email = emailBox.getText().toString();
+                pass = passwordBox.getText().toString();
+
                 User user=new User();
-                user.setEmail(email);
-                user.setPass(pass);
                 user.setName(name);
                 user.setFamily(family);
+                user.setEmail(email);
+                user.setPass(pass);
+
                 auth.createUserWithEmailAndPassword(email,pass).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {

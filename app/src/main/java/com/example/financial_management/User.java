@@ -6,13 +6,7 @@ public class User {
 
     }
 
-    public String getFamily() {
-        return family;
-    }
 
-    public void setFamily(String family) {
-        this.family = family;
-    }
 
     public String getName() {
         return name;
@@ -20,6 +14,14 @@ public class User {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getFamily() {
+        return family;
+    }
+
+    public void setFamily(String family) {
+        this.family = family;
     }
 
     public String getEmail() {
