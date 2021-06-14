@@ -31,9 +31,6 @@ public class MyAdapter extends FragmentPagerAdapter{
             case 1:
                 SubmitFragment submitFragment = new SubmitFragment();
                 return submitFragment;
-            case 2:
-                ShowFragment showFragment = new ShowFragment();
-                return showFragment;
 
             default:
                 return null;

@@ -23,7 +23,6 @@ public class HomeActivity extends AppCompatActivity {
         viewPager=(ViewPager)findViewById(R.id.viewPager);
         tabLayout.addTab(tabLayout.newTab().setText("خانه ما"));
         tabLayout.addTab(tabLayout.newTab().setText("تراکنش"));
-        tabLayout.addTab(tabLayout.newTab().setText("گزارش"));
 
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
